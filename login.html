@@ -12,71 +12,22 @@
 
 </head>
 
-<body class="text-center">
-
-    <form class="form-signin">
-        <img class="mb-4" src="/images/initial-letter-nc-logo-design-2974022.ico" alt="" width="72" height="72">
-        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
-        <div class="checkbox mb-3">
-            <label>
-                <input type="checkbox" value="remember-me"> Remember me
-            </label>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-        <p class="mt-5 mb-3 text-muted">© 2017-2021</p>
-    </form>
-
-
-
-
-
-    <div style="display: none" class="ubey-RecordingScreen-count-down ubey-RecordingScreen-count-down-container">
-        <style>
-            .ubey-RecordingScreen-count-down-container {
-                position: fixed;
-                height: 100vh;
-                width: 100vw;
-                top: 0;
-                left: 0;
-                z-index: 9999999999999;
-                background-color: rgba(0, 0, 0, 0.2);
-            }
-
-            .ubey-RecordingScreen-count-down-content {
-                position: absolute;
-                display: flex;
-                top: 50%;
-                left: 50%;
-                justify-content: center;
-                align-items: center;
-                color: white;
-                height: 15em;
-                width: 15em;
-                transform: translate(-50%, -100%);
-                background-color: rgba(0, 0, 0, 0.6);
-                border-radius: 50%;
-            }
-
-            #ubey-RecordingScreen-count-count {
-                font-size: 14em;
-                transform: translateY(-2%);
-            }
-        </style>
-        <div class="ubey-RecordingScreen-count-down-content">
-            <span id="ubey-RecordingScreen-count-count"></span>
-        </div>
+<form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
     </div>
-    <div id="weava-permanent-marker" date="1649187935471"></div>
-    <div id="weava-ui-wrapper">
-        <div class="weava-drop-area-wrapper">
-            <div class="weava-drop-area"></div>
-            <div class="weava-drop-area-text">Drop here!</div>
-        </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
     </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 </body>
 
 </html>
