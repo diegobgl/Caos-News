@@ -14,7 +14,7 @@
 
     <!--navegador-->
     <section>
-        <!--clase para cambiar el colo del fondo del navegador -->
+        <!--clase para cambiar el color del fondo del navegador -->
         <div class="p-3 mb-2 bg-secondary text-white">
           <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -63,21 +63,21 @@
             <form>
                 <div class="form-group">
                   <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                   <small id="emailHelp" class="form-text text-muted">este es el gmail de su cuenta</small>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Usuario</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-muted">Este sera el usuario de inicio de seccion</small>
+                    <input type="text" id="usuario" class="form-control" required>
+                    <small id="usuario" class="form-text text-muted">Este sera el usuario de inicio de seccion</small>
                   </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <input type="password" class="form-control" id="exampleInputPassword1" required>
                   <small id="emailHelp" class="form-text text-muted">No compartas nunca tu contraseña a desconocidos</small>
                 </div>
                 <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
                   <label class="form-check-label" for="exampleCheck1">estoy listo</label>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
