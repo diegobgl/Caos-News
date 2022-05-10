@@ -94,8 +94,8 @@ function v_reppass() {
     var v3 = document.getElementById("flag_reppass").value;
     var v5 = document.getElementById("flag_rcorreo").value;
     if (v1 == "1" && v2 == "1" && v3 == "1" && v5 == "1") {
-        document.getElementById("registror").disabled = true;
-    } else {
         document.getElementById("registror").disabled = false;
+    } else {
+        document.getElementById("registror").disabled = true;
     }
 }

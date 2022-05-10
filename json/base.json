@@ -106,7 +106,7 @@
             "id_noticia": 1,
             "titulo_noticia": "Crisis Economica",
             "contenido_noticia": "texto contenido",
-            "imagen_noticia": "localhost:5501/images/"
+            "imagen_noticia": "images/LogoMakr-1wyU1P"
         },
 
 
@@ -115,7 +115,7 @@
             "id_noticia": 2,
             "titulo_noticia": "Delincuencia en el pais",
             "contenido_noticia": "texto contenido",
-            "imagen_noticia": "localhost:5501/images/"
+            "imagen_noticia": "/images/"
 
 
 
@@ -128,7 +128,7 @@
             "id_noticia": 3,
             "titulo_noticia": "Chile va al Mundial !",
             "contenido_noticia": "texto contenido",
-            "imagen_noticia": "localhost:5501/images/"
+            "imagen_noticia": "images/"
 
 
         }
