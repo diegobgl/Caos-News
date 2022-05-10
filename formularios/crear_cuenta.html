@@ -67,42 +67,39 @@
         </div>
         <div class="card-body ">
             <form>
-                <div class="form-group ">
-                    <label for="exampleInputEmail1 ">Direccion de Correo</label>
-                    <input type="email " class="form-control " id="correo" aria-describedby="emailHelp " required onkeyup="v_correo()">
+                <div class="form-group">
+                    <label for="rcorreo">Direccion de Correo</label>
+                    <input type="email" class="form-control " id="rcorreo" aria-describedby="emailHelp" required onkeyup="v_rcorreo()">
                     <small id="emailHelp " class="form-text text-muted ">este es el gmail de su cuenta</small>
                     <p id="texto_correo"></p>
                 </div>
-                <div class="form-group ">
-                    <label for="exampleInputEmail1 ">Usuario</label>
-                    <input type="text " id="rusuario" class="form-control " required onkeyup="v_rnombre()">
-                    <small id="usuario " class="form-text text-muted ">Este sera el usuario de inicio de seccion</small>
+                <div class="form-group">
+                    <label for="rusuario">Usuario</label>
+                    <input type="text" id="rusuario" class="form-control" required onkeyup="v_r2nombre()">
+                    <small id="usuariohelp" class="form-text text-muted">Este sera el usuario de inicio de seccion</small>
                     <p id="texto_rnombre"></p>
                 </div>
 
-                <div class="form-group ">
-                    <label for="exampleInputPassword1 ">Contraseña</label>
-                    <input type="password " class="form-control " id="pass" required onkeyup="v_pass()">
-                    <small id="emailHelp " class="form-text text-muted ">No compartas nunca tu contraseña a desconocidos</small>
+                <div class="form-group">
+                    <label for="pass">Contraseña</label>
+                    <input type="password" class="form-control" id="pass" required onkeyup="v_pass()">
+                    <small id="emailHelp" class="form-text text-muted ">No compartas nunca tu contraseña a desconocidos</small>
                     <p id="texto_pass"></p>
                 </div>
 
-                <div class="form-group ">
-                    <label for="exampleInputPassword1 "> Validar Contraseña</label>
-                    <input type="password " class="form-control " id="repass" required onkeyup="v_repass()">
-                    <small id="emailHelp " class="form-text text-muted ">No compartas nunca tu contraseña a desconocidos</small>
+                <div class="form-group">
+                    <label for="repass"> Validar Contraseña</label>
+                    <input type="password" class="form-control" id="repass" required onkeyup="v_reppass()">
+                    <small id="emailHelp" class="form-text text-muted">No compartas nunca tu contraseña a desconocidos</small>
                     <p id="texto_reppass"></p>
                 </div>
 
 
-                <div class="form-group form-check ">
-                    <input type="checkbox " class="form-check-input " id="exampleCheck1 " required>
-                    <label class="form-check-label " for="exampleCheck1 ">estoy listo</label>
-                </div>
-                <button type="submit " class="btn btn-primary ">Enviar</button>
+
+                <button type="submit" class="btn btn-primary" id="registror">Enviar</button>
             </form>
         </div>
-        <div class="card-footer text-muted ">
+        <div class="card-footer text-muted">
         </div>
     </div>
     <!--fin del card que posee el formulario para crear cuenta-->
@@ -111,7 +108,7 @@
 
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="/js/registro.js"></script>
+    <script src="../js/registro.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF " crossorigin="anonymous "></script>
 </body>
