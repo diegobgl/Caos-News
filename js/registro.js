@@ -3,7 +3,7 @@ function registro_r() {
 }
 // VALIDACION NOMBRE
 function v_rnombre() {
-    var largo_nombre = document.getElementById("rnombre").value.length;
+    var largo_nombre = document.getElementById("rusuario").value.length;
     if (largo_nombre < 3 || largo_nombre > 15) {
         document.getElementById("texto_rnombre").innerHTML = "No cumple los requisitos";
         document.getElementById("texto_rnombre").style.color = "red";
@@ -14,11 +14,10 @@ function v_rnombre() {
         document.getElementById("flag_rnombre").value = "1";
     }
     var v1 = document.getElementById("flag_rnombre").value;
-    var v4 = document.getElementById("flag_rapellido").value;
     var v2 = document.getElementById("flag_pass").value;
     var v3 = document.getElementById("flag_reppass").value;
     var v5 = document.getElementById("flag_correo").value;
-    if (v1 == "1" && v2 == "1" && v3 == "1" && v4 == "1" && v5 == "1") {
+    if (v1 == "1" && v2 == "1" && v3 == "1" && v5 == "1") {
         document.getElementById("registro").disabled = false;
     } else {
         document.getElementById("registro").disabled = true;
@@ -82,7 +81,7 @@ function v_pass() {
 
 function v_reppass() {
     var largo_pass = document.getElementById("pass").value.length;
-    var largo_reppass = document.getElementById("reppass").value.length;
+    var largo_reppass = document.getElementById("repass").value.length;
     if (largo_reppass == largo_pass) {
         document.getElementById("texto_reppass").innerHTML = "coinciden";
         document.getElementById("texto_reppass").style.color = "green";

@@ -5,17 +5,75 @@
         {
             "id_cat_noticia": 1,
             "str_noticias": "Deportes",
-            "desc_catgeoria": "texto ejemplo",
+            "desc_catgeoria": " ",
             "img_categoria": "localhost:5500/images/LogoMakr-1wyU1P.png"
-        }
+        },
 
         {
             "id_cat_noticia": 2,
             "str_noticias": "Economia",
-            "desc_catgeoria": "  texto ejemplo",
+            "desc_catgeoria": " ",
+            "img_categoria": "localhost:5500/images/LogoMakr-1wyU1P.png"
+
+        },
+
+        {
+            "id_cat_noticia": 3,
+            "str_noticias": "Politica",
+            "desc_catgeoria": " ",
+            "img_categoria": "localhost:5500/images/LogoMakr-1wyU1P.png"
+
+        },
+
+        {
+            "id_cat_noticia": 4,
+            "str_noticias": "Farandula",
+            "desc_catgeoria": " ",
+            "img_categoria": "localhost:5500/images/LogoMakr-1wyU1P.png"
+
+        },
+
+        {
+            "id_cat_noticia": 5,
+            "str_noticias": "Viajes",
+            "desc_catgeoria": " ",
+            "img_categoria": "localhost:5500/images/LogoMakr-1wyU1P.png"
+
+        },
+
+        {
+            "id_cat_noticia": 6,
+            "str_noticias": "Musica",
+            "desc_catgeoria": " ",
+            "img_categoria": "localhost:5500/images/LogoMakr-1wyU1P.png"
+
+        },
+
+        {
+            "id_cat_noticia": 7,
+            "str_noticias": "Avisos Clasificados",
+            "desc_catgeoria": " ",
+            "img_categoria": "localhost:5500/images/LogoMakr-1wyU1P.png"
+
+        },
+
+        {
+            "id_cat_noticia": 8,
+            "str_noticias": "Cultura",
+            "desc_catgeoria": " ",
+            "img_categoria": "localhost:5500/images/LogoMakr-1wyU1P.png"
+
+        },
+
+        {
+            "id_cat_noticia": 9,
+            "str_noticias": "Miscelaneo",
+            "desc_catgeoria": " ",
             "img_categoria": "localhost:5500/images/LogoMakr-1wyU1P.png"
 
         }
+
+
 
     ],
 
@@ -26,14 +84,14 @@
             "str_nombre_periodista": "juan perez",
             "img_periodista": ""
 
-        }
+        },
 
         {
             "id_Periodista": 2,
-            "str_nombre_periodista": "pedro pablo",
+            "str_nombre_periodista": "Pedro pablo",
             "img_periodista": ""
 
-        }
+        },
 
         {
 
@@ -48,9 +106,33 @@
 
         {
             "id_noticia": 1,
-            "titulo_noticia": "tetxo titulo",
+            "titulo_noticia": "Crisis economica",
+            "contenido_noticia": "texto contenido",
+            "imagen_noticia": " "
+        },
+
+
+        {
+
+            "id_noticia": 2,
+            "titulo_noticia": "Delincuencia en el pais",
             "contenido_noticia": "texto contenido",
             "imagen_noticia": ""
+
+
+
+        },
+
+
+        {
+
+
+            "id_noticia": 3,
+            "titulo_noticia": "Chile va al Mundial !",
+            "contenido_noticia": "texto contenido",
+            "imagen_noticia": "  "
+
+
         }
     ]
 

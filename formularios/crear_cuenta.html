@@ -12,46 +12,46 @@
     <title>Crear Cuenta</title>
 </head>
 
-<body>
+<body onload="registro_r()">
 
     <!--navegador-->
     <section>
         <!--clase para cambiar el colo del fondo del navegador -->
 
-        <div class="p-3 mb-2 bg-secondary text-white">
+        <div class=" p-3 mb-2 bg-secondary text-white ">
             <div>
 
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="images/LogoMakr-1wyU1P.png" width="30" height="30" class="d-inline-block align-top" alt=""> Caos News
+                <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                    <a class="navbar-brand " href="index.html ">
+                        <img src="images/LogoMakr-1wyU1P.png " width="30 " height="30 " class="d-inline-block align-top " alt=" "> Caos News
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+                    <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarSupportedContent " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
+              <span class="navbar-toggler-icon "></span>
             </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="galeria.html">Galeria <span class="sr-only">(current)</span></a>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent ">
+                        <ul class="navbar-nav mr-auto ">
+                            <li class="nav-item active ">
+                                <a class="nav-link " href="galeria.html ">Galeria <span class="sr-only ">(current)</span></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Periodista_1.html">Periodistas</a>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="Periodista_1.html ">Periodistas</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle " href="# " id="navbarDropdown " role="button " data-toggle="dropdown " aria-expanded="false ">
                     Registro y contacto
                   </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="Formulario.html">Registro</a>
-                                    <a class="dropdown-item" href="crear_cuenta.html">Crear cuenta</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="login.html">ingresar</a>
+                                <div class="dropdown-menu " aria-labelledby="navbarDropdown ">
+                                    <a class="dropdown-item " href="Formulario.html ">Registro</a>
+                                    <a class="dropdown-item " href="crear_cuenta.html ">Crear cuenta</a>
+                                    <div class="dropdown-divider "></div>
+                                    <a class="dropdown-item " href="login.html ">ingresar</a>
                                 </div>
                             </li>s
                         </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        <form class="form-inline my-2 my-lg-0 ">
+                            <input class="form-control mr-sm-2 " type="search " placeholder="Search " aria-label="Search ">
+                            <button class="btn btn-outline-success my-2 my-sm-0 " type="submit ">Search</button>
                         </form>
                     </div>
                 </nav>
@@ -62,34 +62,47 @@
     <!--fin de navegador-->
 
     <!--card que posee el formulario para crear cuenta-->
-    <div class="card text-center">
-        <div class="card-header">
+    <div class="card text-center ">
+        <div class="card-header ">
         </div>
-        <div class="card-body">
+        <div class="card-body ">
             <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Direccion de Correo</label>
-                    <input type="email" class="form-control" id="correo" aria-describedby="emailHelp" required onkeyup="v_correo">
-                    <small id="emailHelp" class="form-text text-muted">este es el gmail de su cuenta</small>
+                <div class="form-group ">
+                    <label for="exampleInputEmail1 ">Direccion de Correo</label>
+                    <input type="email " class="form-control " id="correo" aria-describedby="emailHelp " required onkeyup="v_correo()">
+                    <small id="emailHelp " class="form-text text-muted ">este es el gmail de su cuenta</small>
+                    <p id="texto_correo"></p>
                 </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Usuario</label>
-                    <input type="text" id="usuario" class="form-control" required onkeyup="">
-                    <small id="usuario" class="form-text text-muted">Este sera el usuario de inicio de seccion</small>
+                <div class="form-group ">
+                    <label for="exampleInputEmail1 ">Usuario</label>
+                    <input type="text " id="rusuario" class="form-control " required onkeyup="v_rnombre()">
+                    <small id="usuario " class="form-text text-muted ">Este sera el usuario de inicio de seccion</small>
+                    <p id="texto_rnombre"></p>
                 </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Contraseña</label>
-                    <input type="password" class="form-control" id="pass" required onkeyup="">
-                    <small id="emailHelp" class="form-text text-muted">No compartas nunca tu contraseña a desconocidos</small>
+
+                <div class="form-group ">
+                    <label for="exampleInputPassword1 ">Contraseña</label>
+                    <input type="password " class="form-control " id="pass" required onkeyup="v_pass()">
+                    <small id="emailHelp " class="form-text text-muted ">No compartas nunca tu contraseña a desconocidos</small>
+                    <p id="texto_pass"></p>
                 </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-                    <label class="form-check-label" for="exampleCheck1">estoy listo</label>
+
+                <div class="form-group ">
+                    <label for="exampleInputPassword1 "> Validar Contraseña</label>
+                    <input type="password " class="form-control " id="repass" required onkeyup="v_repass()">
+                    <small id="emailHelp " class="form-text text-muted ">No compartas nunca tu contraseña a desconocidos</small>
+                    <p id="texto_reppass"></p>
                 </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+
+
+                <div class="form-group form-check ">
+                    <input type="checkbox " class="form-check-input " id="exampleCheck1 " required>
+                    <label class="form-check-label " for="exampleCheck1 ">estoy listo</label>
+                </div>
+                <button type="submit " class="btn btn-primary ">Enviar</button>
             </form>
         </div>
-        <div class="card-footer text-muted">
+        <div class="card-footer text-muted ">
         </div>
     </div>
     <!--fin del card que posee el formulario para crear cuenta-->
@@ -98,39 +111,39 @@
 
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="registro.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="/js/registro.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF " crossorigin="anonymous "></script>
 </body>
 <footer>
     <!-- As a heading -->
-    <nav class="navbar navbar-light bg-light">
-        <span class="navbar-brand mb-0 h1"></span>
+    <nav class="navbar navbar-light bg-light ">
+        <span class="navbar-brand mb-0 h1 "></span>
     </nav>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col align-self-start">
+    <div class="container-fluid ">
+        <div class="row ">
+            <div class="col align-self-start ">
 
             </div>
-            <div class="col align-self-center">
-                <ul class="list-group">
-                    <div class="card text-center">
-                        <div class="card-header">
+            <div class="col align-self-center ">
+                <ul class="list-group ">
+                    <div class="card text-center ">
+                        <div class="card-header ">
                             CONTACTO
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title">CAOS NEWS</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">CONTACTANOS</a>
+                        <div class="card-body ">
+                            <h5 class="card-title ">CAOS NEWS</h5>
+                            <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="# " class="btn btn-primary ">CONTACTANOS</a>
                         </div>
-                        <div class="card-footer text-muted">
+                        <div class="card-footer text-muted ">
                             OBJETIVIDAD EN NOTICIAS
                         </div>
                     </div>
                 </ul>
             </div>
-            <div class="col align-self-end">
-                <ul class="list-group">
+            <div class="col align-self-end ">
+                <ul class="list-group ">
 
                 </ul>
             </div>

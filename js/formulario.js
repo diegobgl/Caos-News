@@ -15,10 +15,8 @@ function v_rnombre() {
     }
     var v1 = document.getElementById("flag_rnombre").value;
     var v4 = document.getElementById("flag_rapellido").value;
-    var v2 = document.getElementById("flag_pass").value;
-    var v3 = document.getElementById("flag_reppass").value;
     var v5 = document.getElementById("flag_correo").value;
-    if (v1 == "1" && v2 == "1" && v3 == "1" && v4 == "1" && v5 == "1") {
+    if (v1 == "1" && v4 == "1" && v5 == "1") {
         document.getElementById("registro").disabled = false;
     } else {
         document.getElementById("registro").disabled = true;
@@ -38,10 +36,8 @@ function v_rapellido() {
     }
     var v1 = document.getElementById("flag_rnombre").value;
     var v4 = document.getElementById("flag_rapellido").value;
-    var v2 = document.getElementById("flag_pass").value;
-    var v3 = document.getElementById("flag_reppass").value;
     var v5 = document.getElementById("flag_correo").value;
-    if (v1 == "1" && v2 == "1" && v3 == "1" && v4 == "1" && v5 == "1") {
+    if (v1 == "1" && v4 == "1" && v5 == "1") {
         document.getElementById("registro").disabled = false;
     } else {
         document.getElementById("registro").disabled = true;
@@ -66,10 +62,8 @@ function v_correo() {
     }
     var v1 = document.getElementById("flag_rnombre").value;
     var v4 = document.getElementById("flag_rapellido").value;
-    var v2 = document.getElementById("flag_pass").value;
-    var v3 = document.getElementById("flag_reppass").value;
     var v5 = document.getElementById("flag_correo").value;
-    if (v1 == "1" && v2 == "1" && v3 == "1" && v4 == "1" && v5 == "1") {
+    if (v1 == "1" && v4 == "1" && v5 == "1") {
         document.getElementById("registro").disabled = false;
     } else {
         document.getElementById("registro").disabled = true;
