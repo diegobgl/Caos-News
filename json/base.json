@@ -1,0 +1,60 @@
+{
+
+    "CategoriaNoticias": [
+
+        {
+            "id_cat_noticia": 1,
+            "str_noticias": "Deportes",
+            "desc_catgeoria": "texto ejemplo",
+            "img_categoria": "localhost:5500/images/LogoMakr-1wyU1P.png"
+        }
+
+        {
+            "id_cat_noticia": 2,
+            "str_noticias": "Economia",
+            "desc_catgeoria": "  texto ejemplo",
+            "img_categoria": "localhost:5500/images/LogoMakr-1wyU1P.png"
+
+        }
+
+    ],
+
+    "Periodista": [
+
+        {
+            "id_Periodista": 1,
+            "str_nombre_periodista": "juan perez",
+            "img_periodista": ""
+
+        }
+
+        {
+            "id_Periodista": 2,
+            "str_nombre_periodista": "pedro pablo",
+            "img_periodista": ""
+
+        }
+
+        {
+
+            "id_Periodista": 3,
+            "str_nombre_periodista": "FRank ",
+            "img_periodista": ""
+        }
+    ],
+
+
+    "Noticias": [
+
+        {
+            "id_noticia": 1,
+            "titulo_noticia": "tetxo titulo",
+            "contenido_noticia": "texto contenido",
+            "imagen_noticia": ""
+        }
+    ]
+
+
+
+
+}
